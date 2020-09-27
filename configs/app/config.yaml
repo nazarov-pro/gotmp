@@ -1,0 +1,9 @@
+config:
+  import: ["file:prod.yaml"]
+  env:
+    disabled: true
+    prefix: "ENV"
+  
+app:
+  name: "go-template"
+  version: "0.0.1"
